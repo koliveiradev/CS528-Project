@@ -10,4 +10,4 @@ The project is about utilizing a gyroscope and accelerometer to track real time 
 Some applications of this project include camera drones that will want to stay in some sort of lock step with an operator but use their camera to film some other object. Traditionally automatic camera tracking drones utilize their camera to keep themselves oriented and positioned relative to the subject. However this does not allow for the drone to track more than one object or to be positioned relative to one subject and to film another subject. Using a system that uses non camera data to position itself relative to some subject would allow this.
 
 ### Running
-drone.py contains code for running the drone and can be run by simply connecting the the drone's wifi connection then calling python3 drone.py.
+drone.py contains code for running the drone and can be run by simply connecting the the drone's wifi connection then calling python3 drone.py. As for making recordings code.py and the included config in the repo is supposed to be dragged into circuit python on the esp32 to record acceleration data.
